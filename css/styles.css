@@ -133,3 +133,26 @@ li {
   font-size: 18px;
   color: #545557;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: #e5e7eb;
+  padding: 90px 0;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0 70px;
+}
+
+.quote .author {
+  font-size: 18px;
+  align-self: flex-end;
+  margin-right: 100px;
+}
