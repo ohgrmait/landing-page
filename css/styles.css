@@ -18,7 +18,7 @@ body {
 .header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 10px;
 }
@@ -44,13 +44,13 @@ li {
   background-color: #1f2937;
   display: flex;
   padding: 60px 0;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
 }
 
 .hero .main {
-  flex-basis: 550px;
+  flex-basis: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   text-align: center;
   padding: 0 30px;
   flex-wrap: wrap;
@@ -138,29 +138,35 @@ li {
 
 .quote {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   background: #e5e7eb;
   padding: 90px 0;
 }
 
+.quote .content {
+  flex-basis: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote .text {
   font-size: 36px;
-  font-weight: light;
+  font-weight: 100;
   font-style: italic;
   color: #1f2937;
-  margin: 0 70px;
 }
 
 .quote .author {
   font-size: 18px;
   align-self: flex-end;
-  margin-right: 100px;
+  font-weight: 900;
 }
 
 .action {
-  outline: 2px solid red;
   padding: 80px 0;
   display: flex;
   justify-content: center;
