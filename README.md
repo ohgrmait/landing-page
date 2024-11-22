@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Landing Page</h1>
 
-  An Entire Web Page from a Design built using HTML and CSS ([live preview](https://ohgrmait.github.io/landing-page/))
+  An Entire Web Page from a Design ([live preview](https://ohgrmait.github.io/landing-page/))
 
   <img src="./img/cover.png" alt="Banner of the landing page">
 </div>
